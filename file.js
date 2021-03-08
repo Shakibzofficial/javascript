@@ -1,62 +1,18 @@
-console.log(10 + 20)
+var mark ="100";
 
-var DigitalMarketing= 5000;
-var GraphicDesign= 10000;
-var WebDesign=8000;
-
-console.log(DigitalMarketing + GraphicDesign + WebDesign)
-
-var studentFName="Shakib";
-var studentLName="Khan";
-var fullName= (studentFName +" " + studentLName)
-console.log(fullName)
-
-var laptopBrand="Asus";
-var mouseBrand="Walton";
-var KeyboardBrand="Logic"
-var laptopPrice=20500.70;
-var mouseprice=250.40;
-var keyboardPrice=480;
-
-var BrandNames=("Laptop-Name: "+laptopBrand + "|" + " " + "Mouse-Name: "+ mouseBrand + "| " 
-+ "KeyBoard-Name " + KeyboardBrand);
-
-console.log(BrandNames);
-
-var LaptopFinalPrice= parseInt(laptopPrice);
-var MouseFinalPrice= parseInt(mouseprice);
-var KeyBoardFinalPrice= parseInt(keyboardPrice);
-
-var totalPrice = (LaptopFinalPrice + MouseFinalPrice + KeyBoardFinalPrice)
-
-console.log(totalPrice)
-
-
-var StudentID= 57494;
-var StudentFName="Shakib"
-var StudentLname="Khan"
-
-var Final= (StudentID + ": " + StudentFName + "-" + StudentLname);
-console.log(Final)
-
-
-var price= 400;
-var TotalPrice= price += 120;
-
-console.log(TotalPrice)
-
-var ProductOnePrice= 500;
-var ProductTwoPrice= 700;
-
-var PriceCheck =  ProductOnePrice == ProductTwoPrice;
-
-console.log(PriceCheck)
-
-var one= 100;
-var two= "500";
-
-var check= one != two;
-
-console.log(check)
-
-
+if(mark >= 80){
+ document.write("You Got A+ Your Grade Point Is 5.0 out of 5.0")
+}else if(mark >= 70){
+    document.write("You Got A Your Grade Point Is 4.0 out of 5.0")
+}else if(mark >=60){
+    document.write(" You Got A- Your Grade Point Is 3.5 out of 5.0")
+}else if(mark >=50){
+    document.write(" You Got B Your Grade Point Is 3.0 out of 5.0")
+}else if(mark >=40){
+    document.write(" You Got C Your Grade Point Is 2.0 out of 5.0")
+}else if(mark >=33){
+    document.write(" You Got D Your Grade Point Is 1.0 out of 5.0")
+}
+else{
+    document.write("You are Failed Your Grade Point Is 0.0 out of 5.0")
+}
